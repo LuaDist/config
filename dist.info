@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "config"
+version = "1.0.0"
+
+desc = "Easy configuration file loading"
+author = "Nicolas Casalini"
+license = "MIT"
+url = "http://lua.net-core.org/sputnik.lua?p=Telesto:About"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1"
+}
