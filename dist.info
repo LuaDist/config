@@ -1,0 +1,24 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Nicolas Casalini"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Easy configuration file loading"
+version = "1.0.0"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib/lua/config.lua]],
+}
+,
+Data = {
+[[share/config/COPYING]],
+}
+,
+}
+
+license = "MIT"
+name = "config"
+url = "http://lua.net-core.org/sputnik.lua?p=Telesto:About"
